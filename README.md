@@ -12,6 +12,7 @@ Personal configuration files managed via symbolic links.
 2. Create symlinks for each config file:
    ```bash
    ln -s ~/.dotfiles/.bashrc ~/.bashrc
+   ln -s ~/.dotfiles/.ssh_aliases ~/.ssh_aliases
    ```
 
 ## Structure
