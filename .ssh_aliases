@@ -1,0 +1,29 @@
+# ~/.dotfiles/.ssh_aliases
+
+dotsh() { ssh dotsh "$@"; }
+flowbie() { ssh flowbie "$@"; }
+fourty4() { ssh fourty4 "$@"; }
+
+ontario() { ssh -l root ontario "$@"; }
+seattle() { ssh -l root seattle "$@"; }
+holland() { ssh -l root holland "$@"; }
+helsinki() { ssh -l root helsinki "$@"; }
+
+# Astro
+metro() { ssh -i $HOME/.astro/id/ed25519 -l astro metro "$@"; }
+missouri() { ssh -i $HOME/.astro/id/ed25519 -l astro missouri "$@"; }
+
+# eCoinCore
+tuft() { ssh -i $HOME/.fiscus/id/rsa -l fiscus tuft "$@"; }
+chicago() { ssh -i $HOME/.fiscus/id/ed25519 -l fiscus chicago "$@"; }
+woolloomooloo() { ssh -i $HOME/.fiscus/id/ed25519 -l fiscus woolloomooloo "$@"; }
+oakland() { ssh -i $HOME/.fiscus/id/ed25519 -l fiscus oakland "$@"; }
+miami() { ssh -i $HOME/.fiscus/id/ed25519 -l fiscus miami "$@"; }
+
+# Rooty
+nursery() { ssh -i $HOME/.rooty/id/ed25519 -l rooty nursery "$@"; }
+
+# Seraph
+jersey() { ssh -i $HOME/.seraph/id/rsa -l seraph jersey "$@"; }
+france() { ssh -i $HOME/.seraph/id/rsa -l seraph france "$@"; }
+netherlands() { ssh -i $HOME/.seraph/id/rsa -l seraph netherlands "$@"; }
