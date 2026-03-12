@@ -5,26 +5,29 @@ Personal configuration files managed via symbolic links.
 ## Setup
 
 1. Clone this repository to `~/.dotfiles`:
-   ```bash
-   git clone git@github.com:koad/dotfiles.git ~/.dotfiles
-   ```
+    ```bash
+    git clone git@github.com:koad/dotfiles.git ~/.dotfiles
+    ```
 
 2. Create symlinks for each config file:
-   ```bash
-   ln -s ~/.dotfiles/.bashrc ~/.bashrc
-   ln -s ~/.dotfiles/.ssh_aliases ~/.ssh_aliases
-   ```
+    ```bash
+    ln -s ~/.dotfiles/.bashrc ~/.bashrc
+    ln -s ~/.dotfiles/.ssh_aliases ~/.ssh_aliases
+    ```
 
-## Structure
+## Cairo-Dock Setup
 
-- `.bashrc` - Bash shell configuration
+```bash
+ln -s ~/.dotfiles/dock/theme ~/.config/cairo-dock/current_theme
+./dock/install.sh
+```
 
-## Adding New Dotfiles
+## Keybinds Setup
 
-To add a new config file:
-1. Move the file to `~/.dotfiles/`
-2. Create a symlink: `ln -s ~/.dotfiles/<filename> ~/<filename`
+```bash
+./keybinds/install.sh
+```
 
-## Updating
+---
 
-Changes made to the symlinked files in `$HOME` will be reflected in the actual files in `~/.dotfiles`. Simply commit and push as usual.
+*Last updated: March 12, 2026*
