@@ -1,7 +1,7 @@
  # Building Cairo-Dock from source
 
  This directory contains a helper script and documentation for building Cairo-Dock
- core (3.6.98) and official plug-ins (excluding the Impulse plug-in) from source on
+ core and official plug-ins (excluding the Impulse plug-in) from source on
  Debian 12 (Bookworm).
 
  ## Prerequisites
@@ -33,21 +33,21 @@
  ```
 
  The script will:
- - Clone the `cairo-dock-core` and `cairo-dock-plug-ins` repositories under `~/.cairo`
- - Configure and build Cairo-Dock core in `~/.cairo/cairo-dock-core/build`
+ - Clone the `cairo-dock-core` and `cairo-dock-plug-ins` repositories
+ - Configure and build Cairo-Dock core 
  - Install core libraries and pkg-config files (`gldi.pc`)
- - Configure and build plug-ins in `~/.cairo/cairo-dock-plug-ins/build` (Impulse disabled)
+ - Configure and build plug-ins
  - Install plug-in libraries and desktop integration files
 
  After installation, verify the version:
 
  ```bash
- cairo-dock --version   # should report 3.6.98
+ cairo-dock --version
  ```
 
  ## Customization
 
- - Enable the Impulse plug-in by editing `install_cairo_dock.sh` and removing
+ - Enable the Impulse plug-in by editing `install.sh` and removing
    `-Denable-impulse=no` from the plug-in build step.
  - Enable desktop-manager integration in core by adding
    `-Denable-desktop-manager=True` to the core build step.
