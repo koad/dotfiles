@@ -13,9 +13,9 @@
 SCRIPT_DIR="$HOME/.dotfiles/scripts"
 ADD="$SCRIPT_DIR/add-keybinding.sh"
 
-"$ADD" "right-bottom-left"   "wmctrl -r :ACTIVE: -e 0,1916,965,2048,413"  "<Super>q"
-"$ADD" "right-left"          "wmctrl -r :ACTIVE: -e 0,1916,29,2048,1141"  "<Super>w"
-"$ADD" "right-top"           "wmctrl -r :ACTIVE: -e 0,2162,28,2321,1273"  "<Super>e"
+"$ADD" "right-bottom-left"   "wmctrl -r :ACTIVE: -e 0,1916,924,2048,413"  "<Super>q"
+"$ADD" "right-left"          "wmctrl -r :ACTIVE: -e 0,1927,53,1686,1208"  "<Super>w"
+"$ADD" "right-top"           "wmctrl -r :ACTIVE: -e 0,2151,41,2321,1217"  "<Super>e"
 "$ADD" "right-bottom-right"  "wmctrl -r :ACTIVE: -e 0,2894,623,1388,558"  "<Super>r"
 
 "$ADD" "left-top"     "wmctrl -r :ACTIVE: -e 0,19,182,1905,829"  "<Super>a"
