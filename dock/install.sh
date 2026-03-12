@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-CAIRO_DIR="${HOME}/.cairo"
+CAIRO_DIR="${HOME}/.dotfiles/dock/build"
 
 # Install build dependencies
 sudo apt update
@@ -17,7 +17,8 @@ sudo apt install -y \
   libegl1-mesa-dev libgbm-dev libgl1-mesa-dev \
   libglu1-mesa-dev libgtk-3-dev libpango1.0-dev \
   libcrypt-dev libwayland-dev libwayland-egl-backend-dev \
-  libasound2-dev libpulse-dev
+  libasound2-dev libpulse-dev \
+  libgnome-menu-3-dev
 
 # Clone repositories if missing
 mkdir -p "${CAIRO_DIR}"

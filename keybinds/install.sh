@@ -6,10 +6,10 @@ ADD="$SCRIPT_DIR/add-keybinding.sh"
 "$ADD" "file-explorer"         "nautilus"                                            "<Super>f"
 "$ADD" "gnome-terminal"        "gnome-terminal"                                      "<Ctrl><Alt>t"
 "$ADD" "copy-window-position"  "$HOME/.dotfiles/scripts/copy-window-position.sh"     "<Super>t"
-"$ADD" "kill-all-tabs"         "$HOME/.dotfiles/scripts/kill-all-tabs.sh"            "<Ctrl><Alt>k"
+"$ADD" "kill-all-tabs"         "$HOME/.dotfiles/scripts/kill-all-tabs.sh"            "<Super>k"
 "$ADD" "personal-browser"      "$HOME/.dotfiles/shortcuts/browser/personal.sh"       "<Super>g"
-"$ADD" "unattached-browser"    "$HOME/.dotfiles/shortcuts/browser/unattached.sh"     "<Super>i"
-"$ADD" "kingofalldata-browser" "$HOME/.dotfiles/shortcuts/browser/kingofalldata.sh"  "<Super>k"
+"$ADD" "unattached-browser"    "$HOME/.dotfiles/shortcuts/browser/unattached.sh"     "<Super>u"
+"$ADD" "kingofalldata-browser" "$HOME/.dotfiles/shortcuts/browser/kingofalldata.sh"  "<Super>i"
 "$ADD" "book.koad.sh"          "$HOME/.dotfiles/shortcuts/book.koad.sh.sh"           "<Super>b"
 
 
