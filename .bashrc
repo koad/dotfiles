@@ -6,6 +6,8 @@
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
 export REACT_EDITOR=subl
+export TEXT_EDITOR=subl
+export EDITOR=subl
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -17,7 +19,9 @@ export METEOR_PACKAGE_DIRS=$HOME/.beatify/packages:$HOME/.ecoincore/packages:$HO
 
 [ -d $HOME/bin ] && export PATH=$HOME/bin:$PATH
 [ -d $HOME/.bin ] && export PATH=$HOME/.bin:$PATH
+[ -d $HOME/.local/bin ] && export PATH=$HOME/.local/bin:$PATH
 [ -d $HOME/.koad-io/bin ] && export PATH=$HOME/.koad-io/bin:$PATH
+
 [ -f $HOME/.koad-io/.local/entities ] && source ~/.koad-io/.local/entities
 
 for f in ~/.koad-io/helpers/*.sh; do source "$f"; done
@@ -154,22 +158,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export LEGACY_HOME=/media/koad/2065a1af-a718-44f9-8903-8e1a8c6165c5/home/koad
+export LEGACY_HOME=/media/koad/2682c999-ab10-440e-8d27-8bc8da3a47fc/home/koad
 
 umask 0022
 
 bind 'set enable-bracketed-paste off'
 
+# opencode
+export PATH=/home/koad/.opencode/bin:$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-
-
-
-
-
-
-# opencode
-export PATH=/home/koad/.opencode/bin:$PATH
