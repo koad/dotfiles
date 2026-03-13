@@ -5,6 +5,7 @@ ADD="$SCRIPT_DIR/add-keybinding.sh"
 
 "$ADD" "file-explorer"         "nautilus"                                            "<Super>f"
 "$ADD" "gnome-terminal"        "gnome-terminal"                                      "<Ctrl><Alt>t"
+"$ADD" "koad-io-upstart"       "$HOME/.koad-io/hooks/entity-upstart.sh"              "<Ctrl><Alt>u"
 "$ADD" "copy-window-position"  "$HOME/.dotfiles/scripts/copy-window-position.sh"     "<Super>t"
 "$ADD" "kill-all-tabs"         "$HOME/.dotfiles/scripts/kill-all-tabs.sh"            "<Super>k"
 "$ADD" "personal-browser"      "$HOME/.dotfiles/shortcuts/browser/personal.sh"       "<Super>g"
