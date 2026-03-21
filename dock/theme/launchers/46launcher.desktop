@@ -21,7 +21,7 @@ Icon=~/.dotfiles/icons/google.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. It will be run in a shell.}
-Exec=google-chrome --user-data-dir=/home/koad/.koad-io/profiles/browser/google-chrome/alphabet --class=alphabet-chrome-window $*  >/dev/null 2>/dev/null
+Exec=~/.dotfiles/shortcuts/browser/alphabet.sh
 
 
 #X[Extra parameters]

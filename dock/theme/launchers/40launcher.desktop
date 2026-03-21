@@ -21,7 +21,7 @@ Icon=~/.dotfiles/icons/chat-gpt.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. It will be run in a shell.}
-Exec=/home/koad/.bin/chat-gpt.sh
+Exec=~/.dotfiles/shortcuts/providers/chatgpt.sh
 
 
 #X[Extra parameters]
@@ -33,7 +33,7 @@ prevent inhibate=false
 
 #K[Default] Class of the program:
 #{The only reason you may want to modify this parameter is if you made this launcher by hands. If you dropped it into the dock from the menu, it is nearly sure that you shouldn't touch it. It defines the class of the program, which is useful to link the application with its launcher.}
-StartupWMClass=chat_openai_com__chat
+StartupWMClass=https://chat.openai.com/chat
 
 #b Run in a terminal?
 Terminal=false

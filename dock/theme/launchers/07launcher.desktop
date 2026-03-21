@@ -21,7 +21,7 @@ Icon=~/.dotfiles/icons/incognito.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. It will be run in a shell.}
-Exec=chromium --incognito $*  >/dev/null 2>/dev/null\n
+Exec=~/.dotfiles/shortcuts/browser/incognito.sh
 
 
 #X[Extra parameters]

@@ -21,7 +21,7 @@ Icon=~/.dotfiles/icons/kingdom.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. It will be run in a shell.}
-Exec=/home/koad/.scripts/chrome-profile-koad.sh
+Exec=~/.dotfiles/shortcuts/browser/kingofalldata.sh
 
 
 #X[Extra parameters]

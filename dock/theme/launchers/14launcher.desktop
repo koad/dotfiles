@@ -21,7 +21,7 @@ Icon=~/.dotfiles/icons/personal.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. It will be run in a shell.}
-Exec=Enter a command
+Exec=~/.dotfiles/shortcuts/browser/personal.sh\n
 
 
 #X[Extra parameters]
